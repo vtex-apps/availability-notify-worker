@@ -1,9 +1,9 @@
 {
-  "name": "service-example",
+  "name": "availability-notify-worker",
   "vendor": "vtex",
-  "version": "0.2.0",
-  "title": "Service Example",
-  "description": "Reference app for VTEX IO Services",
+  "version": "0.0.1-beta.0",
+  "title": "Availability Notify Worker",
+  "description": "Availability notify forwarder for seller to marketplace notifications",
   "mustUpdateAt": "2018-01-04",
   "categories": [],
   "dependencies": {},
@@ -19,8 +19,8 @@
     {
       "name": "outbound-access",
       "attrs": {
-        "host": "httpstat.us",
-        "path": "*"
+        "host": "{{account}}.vtexcommercestable.com.br",
+        "path": "/vtex.availability-notify/*"
       }
     },
     {

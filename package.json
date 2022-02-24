@@ -1,5 +1,5 @@
 {
-  "name": "service-example",
+  "name": "availability-notify-worker",
   "private": true,
   "license": "UNLICENSED",
   "scripts": {
